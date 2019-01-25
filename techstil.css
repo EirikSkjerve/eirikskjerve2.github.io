@@ -1,5 +1,5 @@
          body{
-                background-image: url("bilete/tech2.png");
+                background-image: url("bilete/tech3.png");
                 min-height: 100vh;
                 background-size: cover;
                 background-position: center bottom;
@@ -11,7 +11,8 @@
             .kol-4{grid-column:span 4;}
             .kol-5{grid-column:span 5;}
             .kol-6{grid-column:span 6;
-            background-color: darkslategray;
+            background-color: royalblue;
+            filter: opacity(93%);
 }
             .kol-7{grid-column:span 7;}
             .kol-8{grid-column:span 8;}
@@ -33,6 +34,7 @@
                 flex-direction: row;
                 align-items: center;
                 justify-content: space-between;
+                filter: opacity(85%)
             }
             @media (max-width:900px){
                 header > nav{
@@ -48,7 +50,7 @@
                 font-family: verdana;
             }
             nav .heim{
-                background-color: darkslategray;
+                background-color: royalblue;
                 font-weight: 800;
                 font-size: 40px;
                 padding: 5px;
@@ -61,7 +63,7 @@ article{
 }
 article > p{
     font-family: verdana;
-    color: antiquewhite;
+    color: whitesmoke;
     font-size: 20px;
     margin: 5px;
 }
@@ -70,7 +72,7 @@ ul{
     color: ghostwhite;
 }
 #prosessor{
-    width: 100%;
+    width: 90%;
 
 }
 #informasjon{
@@ -96,5 +98,8 @@ h1{
     padding: 5px;
 }
 #sosial{
-    width: 100%;
+    width: 121%;
+}
+.socialstat{
+    width: 120%;
 }
