@@ -11,11 +11,15 @@
             .kol-4{grid-column:span 4;}
             .kol-5{grid-column:span 5;}
             .kol-6{grid-column:span 6;
-            background-color: royalblue;
-            filter: opacity(93%);
+            background-color: lightblue;
+            filter: opacity(90%);
+            box-shadow: 4px 4px 3px black;
 }
             .kol-7{grid-column:span 7;}
-            .kol-8{grid-column:span 8;}
+            .kol-8{grid-column:span 8;
+            background-color: lightblue;
+            filter: opacity(90%);
+            box-shadow: 4px 4px 3px black;}
             .kol-9{grid-column:span 9;}
             .kol-10{grid-column:span 10;}
             .kol-11{grid-column:span 11;}
@@ -29,12 +33,10 @@
                 margin-top: 15px;
             }
                       header > nav{
-                background-color:black;
                 display: flex;
                 flex-direction: row;
                 align-items: center;
                 justify-content: space-between;
-                filter: opacity(85%)
             }
             @media (max-width:900px){
                 header > nav{
@@ -48,28 +50,37 @@
                 color: white;
                 text-decoration: none;
                 font-family: verdana;
+                font-size: 25px;
+                text-shadow: 1px 1px 1px black;
             }
             nav .heim{
                 background-color: royalblue;
                 font-weight: 800;
                 font-size: 40px;
                 padding: 5px;
+                box-shadow: 4px 4px 3px black;
             }
             body a:hover{
                 text-decoration: underline;
             }
-article{
-    
+article > a{
+    color: black;
+    text-shadow: none;
+}
+article > h1{
+    color: black;
+    text-shadow: none
 }
 article > p{
     font-family: verdana;
-    color: whitesmoke;
+    color: black;
     font-size: 20px;
     margin: 5px;
+    padding: 5px;
 }
 ul{
     font-size: 20px;
-    color: ghostwhite;
+    color: black;
 }
 #prosessor{
     width: 90%;
@@ -102,4 +113,8 @@ h1{
 }
 .socialstat{
     width: 120%;
+}
+#banner{
+    width: 150px;
+    margin-left: 20px;
 }
