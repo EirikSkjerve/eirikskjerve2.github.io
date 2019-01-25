@@ -24,7 +24,7 @@
                 display:grid;
                 margin: auto;
                 grid-template-columns: repeat(12,1fr);
-                grid-gap: 20px;
+                grid-gap: 25px;
                 margin-top: 15px;
             }
                       header > nav{
@@ -38,8 +38,9 @@
                 header > nav{
                     flex-direction: column;
                     justify-content: space-around;}
-            }
-            nav a{
+}
+            
+            body a{
                 padding-left: 30px;
                 padding-right: 30px;
                 color: white;
@@ -49,10 +50,10 @@
             nav .heim{
                 background-color: darkslategray;
                 font-weight: 800;
-                font-size: 33px;
-                padding: 10px;
+                font-size: 40px;
+                padding: 5px;
             }
-            nav a:hover{
+            body a:hover{
                 text-decoration: underline;
             }
 article{
@@ -62,34 +63,38 @@ article > p{
     font-family: verdana;
     color: antiquewhite;
     font-size: 20px;
-    margin: 15px;
+    margin: 5px;
 }
 ul{
     font-size: 20px;
     color: ghostwhite;
 }
 #prosessor{
-    width: 400px;
-}
-#sosial{
-    width: 400px;
-    margin-left: 100px;
-    height: 268px
+    width: 100%;
+
 }
 #informasjon{
     font-family: monospace;
     font-size: 17px;
     }
-img{
-    align-items: center;
-}
 #ikon{
     width: 50px;
 }
 #ikon2{
     width: 50px;
 }
-#ikon:hover{
+.techinfo{
+    width: 200px;
 }
-#ikon2:hover{    
+#focus{
+    background-color: grey;
+}
+h1{
+    font-family: verdana;
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 5px;
+}
+#sosial{
+    width: 100%;
 }
