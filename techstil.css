@@ -13,7 +13,7 @@
             .kol-6{grid-column:span 6;
             background-color: lightblue;
             filter: opacity(90%);
-            box-shadow: 4px 4px 3px black;
+            box-shadow: 7px 7px 7px black;
 }
             .kol-7{grid-column:span 7;}
             .kol-8{grid-column:span 8;
@@ -75,15 +75,17 @@ article > p{
     font-family: verdana;
     color: black;
     font-size: 20px;
-    margin: 5px;
-    padding: 5px;
+    margin: 8px;
+    padding: 7px;
 }
 ul{
     font-size: 20px;
     color: black;
 }
 #prosessor{
-    width: 90%;
+    width: 122%;
+    min-height: 270px;
+    box-shadow: 10px 10px 15px;
 
 }
 #informasjon{
@@ -106,7 +108,7 @@ h1{
     font-family: verdana;
     font-size: 20px;
     color: whitesmoke;
-    padding: 5px;
+    margin-left: 10px;
 }
 #sosial{
     width: 121%;
@@ -114,8 +116,22 @@ h1{
 }
 .socialstat{
     width: 120%;
+    box-shadow: 4px 4px 3px black;
 }
 #banner{
     width: 150px;
     margin-left: 20px;
+}
+#video{
+    width: 100%;
+}
+#kurve{
+    width: 100%;
+}
+#sosial2{
+    width: 100%;
+}
+#bulb{
+    width: 100%;
+    filter: saturate(2);
 }
