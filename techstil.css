@@ -82,12 +82,6 @@ ul{
     font-size: 20px;
     color: black;
 }
-#prosessor{
-    width: 122%;
-    min-height: 270px;
-    box-shadow: 10px 10px 15px;
-
-}
 #informasjon{
     font-family: monospace;
     font-size: 17px;
@@ -112,7 +106,7 @@ h1{
 }
 #sosial{
     width: 121%;
-    box-shadow: 4px 4px 3px black;
+    box-shadow: 7px 7px 7px black;
 }
 .socialstat{
     width: 120%;
@@ -125,13 +119,6 @@ h1{
 #video{
     width: 100%;
 }
-#kurve{
-    width: 100%;
-}
-#sosial2{
-    width: 100%;
-}
-#bulb{
-    width: 100%;
-    filter: saturate(2);
+.underpunkt{
+    font-size: 17px
 }
